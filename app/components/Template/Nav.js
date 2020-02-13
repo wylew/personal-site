@@ -18,7 +18,7 @@ const Nav = () => (
       </header>
     </section>
 
-    <section className="blurb">
+{/*     <section className="blurb">
       <h2>About Me</h2>
       <p>
       My name is Wyatt. 
@@ -30,7 +30,7 @@ const Nav = () => (
           {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul> */}
-    </section>
+    </section> */}
 
     <section id="footer">
       <ul className="icons">
