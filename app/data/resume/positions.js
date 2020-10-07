@@ -8,9 +8,7 @@ const positions = [
     points: [
       'TBD',
     ],
-  },
-  
-  {
+  }, {
     company: 'IQVIA',
     position: 'Senior Project Manager',
     link: 'https://www.iqvia.com',
