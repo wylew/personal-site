@@ -2,9 +2,19 @@
 const positions = [
   {
     company: 'IQVIA',
+    position: 'Associate Director, Project Management Organization',
+    link: 'https://www.iqvia.com',
+    daterange: 'March 2020 - Present',
+    points: [
+      'TBD',
+    ],
+  },
+  
+  {
+    company: 'IQVIA',
     position: 'Senior Project Manager',
     link: 'https://www.iqvia.com',
-    daterange: 'December 2018 - Present',
+    daterange: 'December 2018 - February 2020',
     points: [
       'TBD',
     ],
