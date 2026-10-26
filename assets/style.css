@@ -175,10 +175,12 @@ details.more ul { margin-top: .75rem; }
 .board .head span { background: transparent; color: #8b8b8b; font-size: .65rem; }
 .board .head span::after { display: none; }
 .art.dates { background: var(--paper-2); }
-.cal { display: grid; grid-template-columns: repeat(7, 1.7rem); gap: .3rem; font: .7rem/1.7rem var(--mono); text-align: center; color: var(--ink-2); }
-.cal span { border-radius: 4px; }
-.cal .on { background: var(--accent); color: #fff; }
-.cal .ring { box-shadow: inset 0 0 0 1.5px var(--accent); color: var(--ink); }
+.countdown { width: 100%; max-width: 18rem; display: grid; gap: .5rem; font-family: var(--mono); }
+.countdown .next { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 1rem 1.1rem; display: grid; gap: .5rem; }
+.countdown .label { font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); }
+.countdown .clock { font-size: .85rem; color: var(--ink-2); }
+.countdown .clock b { font: 400 1.9rem/1 var(--serif); color: var(--ink); margin-left: .15rem; }
+.countdown .later { display: flex; justify-content: space-between; font-size: .75rem; color: var(--ink-2); padding: .45rem 1.1rem; border-bottom: 1px dashed var(--rule); }
 
 /* ---------- footer ---------- */
 footer { padding: 3rem 0 4rem; color: var(--ink-2); font: .8rem/1.6 var(--mono); }
