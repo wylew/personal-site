@@ -176,10 +176,19 @@
       <div class="wrap section-head">
         <h2><b>03</b>Projects</h2>
         <div class="projects">
+          <!--
+            Project links: add any of these inside a project's <ul class="get">.
+            <li><a class="store" data-store="github"      href="https://github.com/wylew/REPO" rel="noopener"><small>Source on</small>GitHub</a></li>
+            <li><a class="store" data-store="play"        href="https://play.google.com/store/apps/details?id=PACKAGE" rel="noopener"><small>Get it on</small>Google Play</a></li>
+            <li><a class="store" data-store="appstore"    href="https://apps.apple.com/app/idNUMBER" rel="noopener"><small>Download on the</small>App Store</a></li>
+            <li><a class="store" data-store="itch"        href="https://wylew.itch.io/GAME" rel="noopener"><small>Play on</small>itch.io</a></li>
+            Not live yet? Use a span instead:  <li><span class="store" data-store="play" aria-disabled="true"><small>Coming soon to</small>Google Play</span></li>
+            Secondary page link:                <li><a class="doc" href="/GAME/privacy/">Privacy policy</a></li>
+          -->
 
-          <article class="project featured">
+          <article class="project">
             <div class="art ski">
-              <img src="/assets/projects/ski.svg" alt="Pixel-art ski slope with a skier, a deer, an alpine chalet and pine trees strung with lights" width="960" height="540">
+              <img src="/assets/projects/ski.svg" alt="Pixel-art ski slope with a skier, a deer, an alpine chalet and pine trees strung with lights" width="640" height="600">
             </div>
             <div class="body">
               <span class="status dev">In development · Android</span>
@@ -190,7 +199,9 @@
                 <li>Unlock scenery as you play: birds, deer, new kinds of trees (some strung with lights) and alpine chalets</li>
               </ul>
               <ul class="tags"><li>Kotlin</li><li>Android</li><li>Pixel art</li></ul>
-              <p class="cta"><span class="muted">Devlog coming soon</span></p>
+              <ul class="get" aria-label="Powder Run links">
+                <li><a class="doc" href="/powder-run/privacy/">Privacy policy</a></li>
+              </ul>
             </div>
           </article>
 
@@ -208,7 +219,9 @@
                 <li>Uses any photo as the background, and drops to 30 FPS in battery saver</li>
               </ul>
               <ul class="tags"><li>Kotlin</li><li>Canvas</li><li>Material 3</li><li>Sensors</li></ul>
-              <p class="cta"><a href="https://github.com/wylew/Sakura_Live_Wallpaper" rel="noopener">View on GitHub</a></p>
+              <ul class="get" aria-label="Sakura Live Wallpaper links">
+                <li><a class="store" data-store="github" href="https://github.com/wylew/Sakura_Live_Wallpaper" rel="noopener"><small>Source on</small>GitHub</a></li>
+              </ul>
             </div>
           </article>
 
@@ -231,7 +244,7 @@
                 <li>Cover photos for each trip, chosen from Unsplash</li>
               </ul>
               <ul class="tags"><li>Kotlin</li><li>Jetpack Compose</li><li>Firebase</li></ul>
-              <p class="cta"><span class="muted">Private beta</span></p>
+              <ul class="get"><li><span class="note">Private beta</span></li></ul>
             </div>
           </article>
 
@@ -255,7 +268,7 @@
                 <li>Shows the next date first, so nothing sneaks up on you</li>
               </ul>
               <ul class="tags"><li>Android</li></ul>
-              <p class="cta"><span class="muted">Repo coming soon</span></p>
+              <ul class="get"><li><span class="note">Repo coming soon</span></li></ul>
             </div>
           </article>
 

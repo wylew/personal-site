@@ -9,12 +9,14 @@ Plain HTML and CSS. No build step, no npm dependencies, no JavaScript, no tracke
 - **Content:** everything is in `index.html`. Resume entries are `<li class="job">` blocks; projects are `<article class="project">` blocks.
 - **Styles:** `assets/style.css`. Light and dark mode follow the visitor's system setting. The resume section prints cleanly.
 - **Project images:** `assets/projects/`.
+- **Project links:** each project card ends with a `<ul class="get">` list. Copy-paste snippets for GitHub, Google Play, App Store and itch.io badges, a "coming soon" badge, and a plain doc link are in a comment at the top of the Projects section in `index.html`. The icons are generic glyphs in `assets/icons/`, not the stores' official logos. If you want the official badges, download them from each store's brand page and swap them in.
+- **Privacy policies:** `powder-run/privacy/index.html` is served at `lew.in/powder-run/privacy/`. It is boilerplate that assumes no data collection; update it if you add ads, analytics, accounts or Play Games services. Copy the folder to make one for another app.
 
 Preview locally with any static server, for example `python3 -m http.server`.
 
 ## Deploying
 
-Every push to `master` deploys to GitHub Pages via `.github/workflows/pages.yml`.
+Every push to `master` deploys the whole repo (except `.git*` and this README) to GitHub Pages via `.github/workflows/pages.yml`.
 
 One-time setup:
 
